@@ -1,0 +1,22 @@
+body{
+    background-color: aquamarine;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    border: 3px dashed blue;
+    text-align: center;
+    width: 300px;
+    margin-left: ;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-div div{
+    width: 200px;
+    height: 200px;
+}
