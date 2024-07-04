@@ -99,12 +99,22 @@ section{
 
 @media (max-width:706px){
     #heading{
-        font-size: 80px;
+        font-size: 44px;
     }
+    .text{
+        width: 600px;
+    }
+
+    
 }
 
 @media (max-width:400px){
     #heading{
-        font-size: 100px;
+        font-size: 34px;
+    }
+
+    .text{
+        width: 500px;
     }
 }
+
