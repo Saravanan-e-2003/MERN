@@ -1,0 +1,39 @@
+A callback function is a funtion Passed as an arguments to another function
+
+1. map()
+    creates new array with the result of the same operation . The call back value is used create new array.
+    SYNTAX -- 
+        arr.map(() => {});
+        arr.map(callbackFun(value, index, arr));
+
+2. filter()
+    SYNTAX --
+        let newArr = arr.filter((val) =>{
+            return val%2 == 0
+        })
+
+        it returns the elements that satisfies the return condition into a new arrsy.
+
+3. reduce()
+    reduces the array and returns single value
+    SYNTAX
+        let value = arr.reduce((acc,current) =>{
+            //func eg: acc+current
+        });
+
+4. Window Object
+    DOM - Document Object Model;
+
+    - selecting Tag using
+        -- ID : SYNTAX: document.getElementbyId("id_name");
+    
+    - selecting class using
+        -- ID : SYNTAX: document.getElementbyClassName("class_name");
+
+    - selecting Tag using
+        -- ID : SYNTAX: document.getElementbyTagName("class_name");
+
+    -- using querySelector("");
+    document.querySelector(".h1"); //classes
+    document.querySelector("#h1"); //ID
+    document.querySelectorAll(".h1"); //all elements of the classes
