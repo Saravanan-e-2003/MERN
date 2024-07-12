@@ -1,0 +1,9 @@
+Todo tasks -- \
+    -- JS MiniProjects
+    -- Study the to Learn
+
+To learn
+    -- Promises in JS
+    -- Await in JS
+    -- Async in JS
+    -- set Time out

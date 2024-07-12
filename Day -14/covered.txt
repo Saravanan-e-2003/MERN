@@ -1,0 +1,15 @@
+To create an element using javascript -- 
+    let div = CreateElement("div");
+
+To nest elements 
+    ParentElement.append(childElement) // Adds after the parent element
+    ParentElement.preAppend(childElement) //Adds before the parent elements
+    ParentElement.before(childElement) // Adds before the childElement
+    ParentElement.after(childelement) // Adds after the childElement
+
+Event Systems --
+    Mouse events
+        - onclick() - SYNTAX onclick = "functionName()"
+    Keyboards events
+    Form events
+    Point events
