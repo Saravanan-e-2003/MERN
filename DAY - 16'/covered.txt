@@ -1,0 +1,14 @@
+Async and Await in JavaScript are powerful keywords used to handle asynchronous operations with promises. Async functions implicitly return promises, while Await pauses the execution until the promise is resolved. This simplifies asynchronous code and enhances readability by making it appear synchronous.
+
+Async Function
+The async function allows us to write promise-based code as if it were synchronous. This ensures that the execution thread is not blocked.
+
+Promise Handling: Async functions always return a promise. If a value is returned that is not a promise, JavaScript automatically wraps it in a resolved promise.
+
+await() function used to 
+
+await() can only be used inside a async() function 
+fetch() function gets data
+
+To get free APIs -- 
+    -- Rapid API
